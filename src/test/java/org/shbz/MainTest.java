@@ -17,7 +17,7 @@ class MainTest {
 
     @Test
     public void substract(){
-        assertFalse(m.substract(10,10)!=0);
+        assertFalse(m.substract(10,10)==0);
     }
 
 
